@@ -1,12 +1,10 @@
-# Deploy a Django App on Render
+# The repertory grid technique Implimentation
 
-This is a sample [Django](https://www.djangoproject.com/) app set up to work with on Render.
-
-The sample app is deployed at https://django.onrender.com.
+The paper has been published in @[Elsivier](https://www.sciencedirect.com/science/article/abs/pii/S0950584908001298) on 2008 and offers a technique to make a better quesionar due to assess a Game Genre from gamers' perspective.
 
 ## Deployment on Render
 
-Fork the repo and use the button below to deploy this app with one click.
+This is a fork from Render. You follow up the link
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 

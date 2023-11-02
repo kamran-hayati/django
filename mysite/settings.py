@@ -84,8 +84,10 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgresql://postgres:postgres@localhost/postgres',
-        conn_max_age=600
+        #default='postgresql://postgres:postgres@localhost/postgres',
+        #default='postgres://iustpg:rvEfWaVRkOO8fiSjLxxgx8EAX8ow75Xs@dpg-cl145bq35nfs739mv5t0-a/iustpg',
+        default='postgres://iustpg:rvEfWaVRkOO8fiSjLxxgx8EAX8ow75Xs@dpg-cl145bq35nfs739mv5t0-a.frankfurt-postgres.render.com/iustpg',
+        conn_max_age=600,
     )
 }
 
